@@ -9,7 +9,7 @@ int main() {
     for (int i = 1; i <= movimentoTorre; i++) {
         printf("Direita\n");
     }
-
+  
     // Simulação do movimento do Bispo
     // O Bispo move-se 5 casas na diagonal para cima e à direita
     int movimentoBispo = 5;
@@ -26,7 +26,7 @@ int main() {
     int movimentoRainha = 8;
     int contadorRainha = 1;
 
-    printf("\nMovimento da Rainha:\n");
+    printf("\n**Movimento da Rainha:**\n");
     do {
         printf("Esquerda\n");
         contadorRainha++;
